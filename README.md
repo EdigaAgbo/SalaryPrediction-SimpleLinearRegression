@@ -12,5 +12,4 @@ dataset = pd.read_csv('Salary_Data.csv')
 X = dataset.iloc[:,[0]].values
 y = dataset.iloc[:,[1]].values
 ```
-
-<img src="/SalaryPrediction-SimpleLinearRegression/dataset.png" alt="Alt text" title="Optional title">
+<img src="/EdigaAgbo/SalaryPrediction-SimpleLinearRegression/dataset.png" alt="Alt text" title="Optional title">
