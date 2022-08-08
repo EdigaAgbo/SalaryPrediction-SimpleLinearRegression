@@ -32,3 +32,15 @@ plt.xlabel ('Years of experience')
 plt.ylabel ('Salary')
 plt.show()
 ```
+![My Image](training-data.png)
+
+```python 
+# Visualising results of the test data
+plt.scatter (X_test_data, y_test_data, color = 'red')
+plt.plot (X_training_data, regressor.predict(X_training_data), color = 'blue')
+plt.title ('Predicting salary based on years of experience (Test data)')
+plt.xlabel ('Years of experience')
+plt.ylabel ('Salary')
+plt.show()
+```
+![My Image](test-data.png)
