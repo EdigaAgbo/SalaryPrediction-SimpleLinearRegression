@@ -49,3 +49,4 @@ plt.show()
 ![My Image](test-data.png)
 # Discussion and recommendations
 
+The regression model trained on the salary data generally showed the closeness of the predicted salaries to the actual salaries of employees - with the blue linear line showing the predicted salaries and the actual salaries are presented by the red data points. This is model is trained on the test data which shows the expected salaries of new employees. Oveall, the model acurately predicts the salary range that new employees are entitled to based on their years of experience.
