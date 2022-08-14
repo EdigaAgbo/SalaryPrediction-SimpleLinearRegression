@@ -1,7 +1,10 @@
 # SalaryPrediction-SimpleLinearRegression
 Simple linear regression model for salary prediction
-# Importing libraries
+# Problem Description 
+The HR department of a company set up a project to review the salary of new employees. The task is to predict the salary range that is suitable for new employees based on their years of experience. A simple linear regression model is trained on existing salary data of employees within the company and is used to predict the salary of new employees based on their years of experience.
+
 ```python
+# Importing libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -44,5 +47,5 @@ plt.ylabel ('Salary')
 plt.show()
 ```
 ![My Image](test-data.png)
-
+# Discussion and recommendations
 
